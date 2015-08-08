@@ -1,0 +1,154 @@
+<?xml version='1.0'  encoding='UTF-8'?>
+<minimap>
+
+<!-- Big Map settings-->
+<bigmapsize>600</bigmapsize><!-- pixelsize of the big minimap-->
+<bigmapx>0</bigmapx><!-- x coordinate shift of big minimap-->
+<bigmapy>0</bigmapy><!-- y coordinate shift of big minimap-->
+<keycode>KEY_LCONTROL</keycode><!-- keycode to toggle the map, see end of file for codes-->
+<markerscale>0.8</markerscale><!-- minimap iconsize factor-->
+
+<!-- View Range Circle Settings-->
+<circlealpha>100</circlealpha><!-- circle alpha value, put 0 to remove circle -->
+<circlecolor>0</circlecolor><!-- circle color, write 0 for default, 0xFFFFFF for white -->
+<circlesize>viewrange</circlesize><!-- circle size, any meter range as number or viewrange -->
+<circlestyle>dashed</circlestyle><!-- style of the view range circle, valid values: line, dots and dashed-->
+
+<!-- Viewrange Text display Settings-->
+<vrtextenabled>true</vrtextenabled><!-- Enable Text display, true or false -->
+<vrtextcolor>#FF8000</vrtextcolor><!-- Viewrange display text color in #Hex -->
+<vrtextposition>0:-0.8:1</vrtextposition><!-- Viewrange text position x:y:z / 0 center, 1 to -1 value, not sure what z does yet-->
+<vrtextfont>verdana_small.font</vrtextfont><!-- found fonts so far: default_medium.font, default_small.font, defualt_smaller.font, system_large.font, system_tiny.font, verdana_medium.font, verdana_small.font  -->
+
+<!-- Binocular Viewrange Circle Settings-->
+<binocircle>switch</binocircle><!-- determines binoc.circle appearance, "replace" will replace viewrange circle, "switch" will show both differing in alpha, "off" disables-->
+<binocirclealpha>100</binocirclealpha><!-- binocircle alpha value, put 0 to remove circle -->
+<binocirclecolor>0</binocirclecolor><!-- binocircle color, write 0 for default, 0xFFFFFF for white -->
+<binocirclestyle>line</binocirclestyle><!-- style of the binocular circle, valid values: line, dots and dashed-->
+
+<!-- 2nd Custom Circle Settings-->
+<customcirclealpha>100</customcirclealpha><!-- circle alpha value, put 0 to remove circle -->
+<customcirclecolor>0x2E9AFE</customcirclecolor><!-- circle color, write 0 for default orange, 0xFFFFFF for white -->
+<customcirclesize>445</customcirclesize><!-- circle size, any meter range as number -->
+<customcirclestyle>dashed</customcirclestyle><!-- style of the view range circle, valid values: line, dots and dashed-->
+
+<!-- Artillery Settings-->
+<artycirclealpha>100</artycirclealpha><!-- artycircle alpha value, put 0 to remove artycircle -->
+<artycirclestyle>line</artycirclestyle><!-- style of the artillery range circle, valid values: line, dots and dashed-->
+<artycirclecolor>0x50FF50</artycirclecolor><!-- artycircle color, write 0 for default, 0xFFFFFF for white -->
+<artycursorcolor>0x40FF00</artycursorcolor><!-- artillery aim cursor color, write 0 for default, 0xFFFFFF for white -->
+
+<!-- View Direction Laser Settings-->
+<laseralpha>100</laseralpha><!-- laser alpha value, put 0 to remove laser line -->
+<lasercolor>0</lasercolor><!-- laser color, write 0 for default, 0x000000 for black -->
+<laserstyle>line</laserstyle><!-- style of the laser line, valid values: line, dots and dashed-->
+
+<!-- Tank Hull Direction Laser Settings-->
+<hlaseralpha>50</hlaseralpha><!-- hull direction laser alpha value, put 0 to remove hull laser line-->
+<hlaserstyle>line</hlaserstyle><!-- style of the hull laser line, valid values: line, dots and dashed-->
+<hlasercolor>0xFFFFFF</hlasercolor><!-- hull laser color, write 0 for default, 0xFFFFFF for white -->
+
+<!-- Minimap Vehicle Icon Descriptor Text Settings-->
+<fontsize>6</fontsize><!-- fontsize of tanknames on map-->
+<shownames>true</shownames><!-- show tanknames on map? Valid values: bigmap, smallmap, true or false-->
+<shortenplayernames>10</shortenplayernames><!-- shortens playernames to specified charlength and adds ".." Valid values: number or false to have full length-->
+<teamgames>3:4:5:7:10</teamgames><!-- put playernames for allies in these gamemodes, overriding allynamecontent setting (1 Random, 2 Training, 3 Companies, 4 Tournaments, 5 Clanwars, 7 Teambattles, 8 Historical, 9 Football, 10 Stronghold) Seperated by : and not to be left empty...put 0 to disable.-->
+<allytextcolor>0x9FF781</allytextcolor><!-- ally tankname text color, default 0x9FF781 -->
+<enemytextcolor>0xF78181</enemytextcolor><!-- enemy tankname text color, default 0xF78181 -->
+<squadtextcolor>0xFE9A2E</squadtextcolor><!-- platoon buddy tankname text color, default 0xFE9A2E -->
+<textshadow>15</textshadow><!-- tankname textshadow strength -->
+<allynamecontent>tank</allynamecontent><!-- set content for ally tank textfields, Valid values: player, tank, tankplayer, playertank, off, Aoff (for automatic off when platooning) -->
+<enemynamecontent>tank</enemynamecontent><!-- set content for enemy tank textfields, Valid values: player, tank, tankplayer, playertank, off -->
+<squadnamecontent>player</squadnamecontent><!-- set content for your platoon buddy textfields, Valid values: player, tank, tankplayer, playertank, off -->
+<marklastpos>true</marklastpos><!-- toggle lost/ghost/last known position markers for enemy tanks, boolean true/false -->
+<lastposalpha>50</lastposalpha><!-- alpha value setting for last known position icons -->
+<lastposcolor>0xFF0000</lastposcolor><!-- last known position marker color, i.e. 0xFFFFFF for white -->
+
+<!-- 50m X-Ray Spotting Circle Settings-->
+<fiftymalpha>25</fiftymalpha><!-- set alpha for 50m X-ray spotting circle, 0 to disable -->
+<fiftymcolor>0</fiftymcolor><!-- set color for 50m X-ray spotting circle (i.e. 0xFF0000 for red), 0 for default white -->
+
+<!-- Game Engine Dynamic Drawbox Settings-->
+<drawboxcolor>0xFF0000</drawboxcolor><!-- color of the dynamic drawing distance box-->
+<drawboxalpha>90</drawboxalpha><!-- alpha of the dynamic drawing distance box, 0 removes the box-->
+<drawboxstyle>line</drawboxstyle><!-- style of the dynamic drawing distance box, valid values: line, dots, mask and dashed-->
+
+<!-- General Settings for the Minimap-->
+<bigmapelements>show:fiftymcircle,drawbox,artycircle,sqlegend,hulllaser,gunconstraints,customcircle</bigmapelements><!-- delete what you want removed, never leave empty!-->
+<smallmapelements>show:fiftymcircle,drawbox,artycircle,hulllaser,gunconstraints,customcircle</smallmapelements><!-- delete what you want removed, never leave empty!-->
+<skullmarkers>false</skullmarkers><!-- enable or disable the skullmarkers for dead tanks, boolean true or false-->
+<showMinimapSuperHeavy>true</showMinimapSuperHeavy><!-- enables the tier dependant icons for al tank types, setting to false will give you the standard icons--> 
+<smallmapx>0</smallmapx><!-- x coordinate shift of normal (small) minimap for multimonitor setups-->
+<smallmapy>0</smallmapy><!-- y coordinate shift of normal (small) minimap for multimonitor setups-->
+</minimap>
+
+<!-- 
+HD Minimap 4th generation Mod by locastan.
+
+Bigmapsize lets you specify the pixel size of the enlarged minimap. You can use the x and y shifts to move it away from its standard center screen position.
+
+Keycode gives you the opportunity to pick any key you want for the toggling of the Minimap zoom. Valid keycodes are at the very end of this file.
+
+The markerscale factor is working again as of 0.9.4. Values between 0.5 and 3 work acceptable.
+
+The fontsize is in points, 5 is standard. The font does scale with the minimap icon size, so big values for markerscale also enlarge the visible text. Compensate if necessary. :)
+
+shownames just controls whether the tanknames are visible on minimap and bigmap or not. 
+Put true or false in there to toggle name visibility on both maptypes.
+Put bigmap or smallmap as value to have it only on one of the two.
+
+The circle and laser tags are for alpha transparency (set to 0 to remove circle or laser) and colors (in hex code). 
+If you put 0 in the color tags, the default color (orange circle, white and orange laser line) are put in place.
+A good site to get hex color codes is: http://html-color-codes.info/
+
+The circlesize tag lets you either set the circle size to a specific value in meters, or (with setting viewrange) 
+to your current tank turret viewrange modified by coated optics if you got them.
+
+The textcolor tags are pretty self explaining. Only special option is putting 0 for disabling of text display 
+depending on wheter it is an ally, enemy or platoon member.
+
+textshadow is the shadow strength behind the tanknames.
+
+namecontent lets you configure what text should be displayed next to the icons. 
+player = playername, tank = tankname, or for both use tankplayer or playertank.
+
+fiftymalpha and fiftymcolor are for setting color value and transparency for the 50m X-ray spotting circle around your tank. 
+Same values useable as for laser and circle.
+
+The drawbox tags are for the 500m dynamic drawing box. 
+Tanks models, over target markers and outlines disappear when the target is outside this box, even when they are spotted.
+
+The style tags are switching between dotted, dashed and solid lines for the three minimap elements. 
+I put the mask value for the drawing box in as a bit of nice optical effect, but it may reduce your framerate.
+
+The bigmapelements and smallmapelements part lets you disable elements on bigmap or smallmap, by deleting their name from the list.
+Default value to show all: show:circle,fiftymcircle,drawbox,artycircle,sqlegend,hulllaser,gunconstraints
+Never leave the field completely empty.
+
+The skullmarkers are pretty self explaining. Setting to true will show the skullies for dead tanks on minimap.
+
+The x and y shift values for the small minimap are useful to ppl. playing with multiple monitors and want to move the minimap
+ closer to center screen. You need to set negative values and press the configured bigmapkey once to update the position.
+
+___________________________________________
+Valid keycodes:
+
+    Numbers:
+    'KEY_0' 'KEY_1' 'KEY_2' 'KEY_3' 'KEY_4' 'KEY_5' 'KEY_6' 'KEY_7' 'KEY_8' 'KEY_9'
+     
+    General:
+    'KEY_A' 'KEY_B' 'KEY_C' 'KEY_D' 'KEY_E' 'KEY_F' 'KEY_G' 'KEY_H' 'KEY_I' 'KEY_J' 'KEY_K' 'KEY_L' 'KEY_M' 'KEY_N' 'KEY_O' 'KEY_P' 'KEY_Q' 'KEY_R' 'KEY_S' 'KEY_T' 'KEY_U' 'KEY_V' 'KEY_W' 'KEY_X' 'KEY_Y' 'KEY_Z'
+     
+    Functional:
+    'KEY_F1' 'KEY_F2' 'KEY_F3' 'KEY_F4' 'KEY_F5' 'KEY_F6' 'KEY_F7' 'KEY_F8' 'KEY_F9' 'KEY_F10' 'KEY_F11' 'KEY_F12' 'KEY_F13' 'KEY_F14' 'KEY_F15'
+     
+    Numpad:
+    'KEY_NUMLOCK' 'KEY_NUMPAD0' 'KEY_NUMPAD1' 'KEY_NUMPAD2' 'KEY_NUMPAD3' 'KEY_NUMPAD4' 'KEY_NUMPAD5' 'KEY_NUMPAD6' 'KEY_NUMPAD7' 'KEY_NUMPAD8' 'KEY_NUMPAD9' 'KEY_NUMPADCOMMA' 'KEY_NUMPADENTER' 'KEY_NUMPADEQUALS' 'KEY_NUMPADMINUS' 'KEY_NUMPADPERIOD' 'KEY_NUMPADSLASH' 'KEY_NUMPADSTAR'
+     
+    Mouse:
+    'KEY_MOUSE0' 'KEY_MOUSE1' 'KEY_MOUSE2' 'KEY_MOUSE3' 'KEY_MOUSE4' 'KEY_MOUSE5' 'KEY_MOUSE6' 'KEY_MOUSE7'
+     
+    Misc:
+    ['KEY_END' 'AXIS_LX' 'AXIS_LY' 'AXIS_RX' 'AXIS_RY' 'KEY_ABNT_C1' 'KEY_ABNT_C2' 'KEY_ADD' 'KEY_APOSTROPHE' 'KEY_APPS' 'KEY_AT' 'KEY_AX' 'KEY_BACKSLASH' 'KEY_BACKSPACE' 'KEY_CALCULATOR' 'KEY_CAPSLOCK' 'KEY_COLON' 'KEY_COMMA' 'KEY_CONVERT' 'KEY_DEBUG' 'KEY_DELETE' 'KEY_DOWNARROW' 'KEY_EQUALS' 'KEY_ESCAPE' 'KEY_GRAVE' 'KEY_HOME' 'KEY_IME_CHAR' 'KEY_INSERT' 'KEY_JOY0' 'KEY_JOY1' 'KEY_JOY10' 'KEY_JOY11' 'KEY_JOY12' 'KEY_JOY13' 'KEY_JOY14' 'KEY_JOY15' 'KEY_JOY16' 'KEY_JOY17' 'KEY_JOY18' 'KEY_JOY19' 'KEY_JOY2' 'KEY_JOY20' 'KEY_JOY21' 'KEY_JOY22' 'KEY_JOY23' 'KEY_JOY24' 'KEY_JOY25' 'KEY_JOY26' 'KEY_JOY27' 'KEY_JOY28' 'KEY_JOY29' 'KEY_JOY3' 'KEY_JOY30' 'KEY_JOY31' 'KEY_JOY4' 'KEY_JOY5' 'KEY_JOY6' 'KEY_JOY7' 'KEY_JOY8' 'KEY_JOY9' 'KEY_JOYA' 'KEY_JOYAHARD' 'KEY_JOYALDOWN' 'KEY_JOYALLEFT' 'KEY_JOYALPUSH' 'KEY_JOYALRIGHT' 'KEY_JOYALUP' 'KEY_JOYARDOWN' 'KEY_JOYARLEFT' 'KEY_JOYARPUSH' 'KEY_JOYARRIGHT' 'KEY_JOYARUP' 'KEY_JOYB' 'KEY_JOYBACK' 'KEY_JOYBHARD' 'KEY_JOYBLACK' 'KEY_JOYBLACKHARD' 'KEY_JOYCIRCLE' 'KEY_JOYCROSS' 'KEY_JOYDDOWN' 'KEY_JOYDLEFT' 'KEY_JOYDRIGHT' 'KEY_JOYDUP' 'KEY_JOYL1' 'KEY_JOYL2' 'KEY_JOYLTRIGGER' 'KEY_JOYLTRIGGERHARD' 'KEY_JOYR1' 'KEY_JOYR2' 'KEY_JOYRTRIGGER' 'KEY_JOYRTRIGGERHARD' 'KEY_JOYSELECT' 'KEY_JOYSQUARE' 'KEY_JOYSTART' 'KEY_JOYTRIANGLE' 'KEY_JOYWHITE' 'KEY_JOYWHITEHARD' 'KEY_JOYX' 'KEY_JOYXHARD'] 'KEY_JOYY' 'KEY_JOYYHARD' 'KEY_KANA' 'KEY_KANJI' 'KEY_LALT' 'KEY_LBRACKET' 'KEY_LCDKB_CANCEL' 'KEY_LCDKB_DOWN' 'KEY_LCDKB_LEFT' 'KEY_LCDKB_MENU' 'KEY_LCDKB_OK' 'KEY_LCDKB_RIGHT' 'KEY_LCDKB_UP' 'KEY_LCONTROL' 'KEY_LEFTARROW' 'KEY_LEFTMOUSE' 'KEY_LSHIFT' 'KEY_LWIN' 'KEY_MAIL' 'KEY_MEDIASELECT' 'KEY_MEDIASTOP' 'KEY_MIDDLEMOUSE' 'KEY_MINUS' 'KEY_MUTE' 'KEY_MYCOMPUTER' 'KEY_NEXTTRACK' 'KEY_NOCONVERT' 'KEY_NONE' 'KEY_NOT_FOUND' 'KEY_NULL' 'KEY_OEM_102' 'KEY_PAUSE' 'KEY_PERIOD' 'KEY_PGDN' 'KEY_PGUP' 'KEY_PLAYPAUSE' 'KEY_POWER' 'KEY_PREVTRACK' 'KEY_RALT' 'KEY_RBRACKET' 'KEY_RCONTROL' 'KEY_RETURN' 'KEY_RIGHTARROW' 'KEY_RIGHTMOUSE' 'KEY_RSHIFT' 'KEY_RWIN' 'KEY_SCROLL' 'KEY_SEMICOLON' 'KEY_SLASH' 'KEY_SLEEP' 'KEY_SPACE' 'KEY_STOP' 'KEY_SYSRQ' 'KEY_TAB' 'KEY_UNDERLINE' 'KEY_UNLABELED' 'KEY_UPARROW' 'KEY_VOLUMEDOWN' 'KEY_VOLUMEUP' 'KEY_WAKE' 'KEY_WEBBACK' 'KEY_WEBFAVORITES' 'KEY_WEBFORWARD' 'KEY_WEBHOME' 'KEY_WEBREFRESH' 'KEY_WEBSEARCH' 'KEY_WEBSTOP' 'KEY_YEN' 'MODIFIER_ALT' 'MODIFIER_CTRL' 'MODIFIER_SHIFT'
+
+-->
