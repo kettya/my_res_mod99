@@ -66,14 +66,14 @@
   		The path of the icon shown when sixthsense perk is not enabled 
   		To disable the icon set it to 
   		scripts/client/plugins/SixthSenseDuration_plugin/resources/transparent.dds -->
-  <IconInactivePath>scripts/client/plugins/SixthSenseDuration_plugin/resources/transparent.dds</IconInactivePath>
+  <IconInactivePath>scripts/client/plugins/SixthSenseDuration_plugin/resources/empty.png</IconInactivePath>
   <!-- ***************************************************** -->
   
   <!-- ******************* IconUnspottedPath **************
   		The path of the icon shown when sixthsense is enabled and you are not spotted 
   		To disable the icon set it to 
   		scripts/client/plugins/SixthSenseDuration_plugin/resources/transparent.dds -->
-  <IconUnspottedPath>scripts/client/plugins/SixthSenseDuration_plugin/resources/transparent.dds</IconUnspottedPath>
+  <IconUnspottedPath>scripts/client/plugins/SixthSenseDuration_plugin/resources/empty.png</IconUnspottedPath>
   <!-- ***************************************************** -->
   
   <!-- ******************* IconSpottedPath ****************
