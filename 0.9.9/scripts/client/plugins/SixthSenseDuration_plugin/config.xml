@@ -38,7 +38,7 @@
   		X is your screen's width
       	Y is your screen's height 
       	use float numbers -->    
-  <IconInactivePosition>(round(x / 2) + -133.0,  round(y / 2) + -400, 0.7)</IconInactivePosition>
+  <IconInactivePosition>(round(x / 2) + -100.0,  round(y / 2) + -400, 0.7)</IconInactivePosition>
   <!-- ***************************************************** -->
   
   <!-- ******************* IconUnspottedPosition **********  
@@ -46,7 +46,7 @@
   		X is your screen's width
       	Y is your screen's height 
       	use float numbers -->   
-  <IconUnspottedPosition>(round(x / 2) + -133.0,  round(y / 2) + -400.0, 0.7)</IconUnspottedPosition>
+  <IconUnspottedPosition>(round(x / 2) + -100.0,  round(y / 2) + -400.0, 0.7)</IconUnspottedPosition>
   <!-- ***************************************************** -->
   
   <!-- ******************* IconSpottedPosition ************  
@@ -54,7 +54,7 @@
   		X is your screen's width
       	Y is your screen's height 
       	use float numbers -->   
-  <IconSpottedPosition>(round(x / 2) + -133.0,  round(y / 2) + -400.0, 0.7)</IconSpottedPosition>
+  <IconSpottedPosition>(round(x / 2) + -100.0,  round(y / 2) + -400.0, 0.7)</IconSpottedPosition>
   <!-- ***************************************************** -->
   
   
@@ -66,21 +66,21 @@
   		The path of the icon shown when sixthsense perk is not enabled 
   		To disable the icon set it to 
   		scripts/client/plugins/SixthSenseDuration_plugin/resources/transparent.dds -->
-  <IconInactivePath>scripts/client/plugins/SixthSenseDuration_plugin/resources/empty.png</IconInactivePath>
+  <IconInactivePath>scripts/client/plugins/SixthSenseDuration_plugin/resources/empty.dds</IconInactivePath>
   <!-- ***************************************************** -->
   
   <!-- ******************* IconUnspottedPath **************
   		The path of the icon shown when sixthsense is enabled and you are not spotted 
   		To disable the icon set it to 
   		scripts/client/plugins/SixthSenseDuration_plugin/resources/transparent.dds -->
-  <IconUnspottedPath>scripts/client/plugins/SixthSenseDuration_plugin/resources/empty.png</IconUnspottedPath>
+  <IconUnspottedPath>scripts/client/plugins/SixthSenseDuration_plugin/resources/empty.dds</IconUnspottedPath>
   <!-- ***************************************************** -->
   
   <!-- ******************* IconSpottedPath ****************
   		The path of the icon shown when sixthsense is enabled and you are spotted 
   		To disable the icon set it to 
   		scripts/client/plugins/SixthSenseDuration_plugin/resources/transparent.dds -->
-  <IconSpottedPath>scripts/client/plugins/SixthSenseDuration_plugin/resources/on.png</IconSpottedPath>
+  <IconSpottedPath>scripts/client/plugins/SixthSenseDuration_plugin/resources/sixthsence.dds</IconSpottedPath>
   <!-- ***************************************************** -->
   
   
@@ -90,17 +90,17 @@
   
   <!-- ******************* IconInactiveSize *************** 
 		The size of the icon shown when sixthsense perk is not enabled -->
-  <IconInactiveSize>266 220</IconInactiveSize>
+  <IconInactiveSize>200 200</IconInactiveSize>
   <!-- ***************************************************** -->
   
   <!-- ******************* IconUnspottedSize ************** 
   		The size of the icon shown when sixthsense is enabled and you are not spotted -->
-  <IconUnspottedSize>266 220</IconUnspottedSize>
+  <IconUnspottedSize>200 200</IconUnspottedSize>
   <!-- ***************************************************** -->
   
   <!-- ******************* IconSpottedSize ****************
   		The size of the icon shown  when sixthsense is enabled and you are spotted -->
-  <IconSpottedSize>266 220</IconSpottedSize>
+  <IconSpottedSize>200 200</IconSpottedSize>
   <!-- ***************************************************** -->
 
   
@@ -242,7 +242,7 @@
       Y is your screen's height
       Example:
       * "(round(x / 2) + 120, round(y / 6) + 20, 0.7)" : (x,y,z)   -->
-  <TimerPosition>(round(x / 2) + 130.0,  round(y / 2) + -240.0, 0.7)</TimerPosition>
+  <TimerPosition>(round(x / 2) + 100.0,  round(y / 2) + -220.0, 0.7)</TimerPosition>
   <!-- ***************************************************** -->
   
   
