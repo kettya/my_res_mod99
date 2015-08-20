@@ -21,3 +21,4 @@ wot9.9のres_mod
 - [[0.9.9]SixthSense ,no xvm](http://forum.worldoftanks.eu/index.php?/topic/358159-099sixthsense-no-xvm/)
 - [[0.9.9] SpottedExtended, no xvm](http://forum.worldoftanks.eu/index.php?/topic/510979-099-spottedextended-no-xvm/)
 - [[0.9.9] Battle Assistant](http://forum.worldoftanks.ru/index.php?/topic/1389614-099-battle-assistant-%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%B2-%D0%B8%D0%B3%D1%80%D0%B5/)
+- [[0.9.9] Spotted vehicle direction on aim circle+](http://forum.worldoftanks.eu/index.php?/topic/441147-099-spotted-vehicle-direction-on-aim-circle/)
